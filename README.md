@@ -10,13 +10,13 @@ class Program
     {
         string inputString = "20230911 asd2324234jghjsd hjsdg sdhk 01072024 idf32432 32423 d34234jh dfh";
         
-        // Define the regular expression pattern for MMDDYYYY format
+        
         string pattern = @"\b(\d{2})(\d{2})(\d{4})\b";
         
-        // Use Regex to find matches in the input string
+     
         MatchCollection matches = Regex.Matches(inputString, pattern);
 
-        // Iterate through matches and print valid dates
+        
         foreach (Match match in matches)
         {
             int month = int.Parse(match.Groups[1].Value);
