@@ -46,3 +46,4 @@ class Program
     }
 }
 ```
+![assignment_outputscreen2](https://github.com/chaithanya08-kashyap/DotNetAssignment2/assets/155832480/8fa0ca76-e984-49f8-a479-6f5b0977c713)
